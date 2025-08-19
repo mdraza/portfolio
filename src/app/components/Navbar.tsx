@@ -1,17 +1,12 @@
 "use client";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
-import {
-  SunIcon,
-  MoonIcon,
-  Bars3Icon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import { useTheme } from "../context/ThemeContext";
-import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+// import { useTheme } from "../context/ThemeContext";
 
 export default function Navbar() {
-  const { theme, toggleTheme } = useTheme();
+  // const { theme, toggleTheme } = useTheme();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
