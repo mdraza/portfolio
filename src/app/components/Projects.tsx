@@ -14,7 +14,7 @@ type ProjectProps = {
 
 export default function Projects(props: ProjectProps) {
   return (
-    <section className={`mt-[80px] pt-[60px] pb-[80px] bg-[${props.bgColor}]`}>
+    <section className={`mt-[80px] pt-[60px] pb-[80px] bg-[#f7f6ff]`}>
       <div className="container max-w-7xl mx-auto px-4">
         {props.title && (
           <motion.h2
