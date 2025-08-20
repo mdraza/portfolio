@@ -54,6 +54,21 @@ export const projects: Project[] = [
     image: "/projects/trackify.png",
   },
   {
+    title: "Personal Portfolio",
+    description:
+      "A personal portfolio website showcasing my skills, experience, and projects in frontend development with React, Next.js, and modern web technologies.",
+    technologies: [
+      "react.png",
+      "nextjs.webp",
+      "tailwind.png",
+      "framer-motion.png",
+      "vercel.png",
+    ],
+    githubLink: "https://github.com/mdraza/trackify",
+    demoLink: "https://trackify-swart-two.vercel.app/",
+    image: "/projects/portfolio.png",
+  },
+  {
     title: "Movie Search Application",
     description:
       "A movie search application using React and Tailwind CSS, search any movie with live search result.",
