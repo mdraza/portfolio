@@ -32,12 +32,12 @@ export const imagesData: ImageItem[] = [
   },
   {
     id: 6,
-    src: "/certificates/javascript.jpg",
-    alt: "js",
+    src: "/certificates/Javascript.jpg",
+    alt: "javascript",
   },
   {
     id: 7,
-    src: "/certificates/php.jpg",
+    src: "/certificates/PHP.jpg",
     alt: "php",
   },
   {

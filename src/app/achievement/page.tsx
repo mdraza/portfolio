@@ -49,14 +49,6 @@ function page() {
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
-            {/* <motion.p
-                      className="text-gray-600 dark:text-gray-300 mb-4"
-                      initial={{ opacity: 0 }}
-                      animate={{ opacity: 1 }}
-                      transition={{ delay: 0.2 }}
-                    >
-                      {project.description}
-                    </motion.p> */}
           </motion.article>
         ))}
       </motion.div>
