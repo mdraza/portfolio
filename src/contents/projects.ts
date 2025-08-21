@@ -64,8 +64,8 @@ export const projects: Project[] = [
       "framer-motion.png",
       "vercel.png",
     ],
-    githubLink: "https://github.com/mdraza/trackify",
-    demoLink: "https://trackify-swart-two.vercel.app/",
+    githubLink: "https://github.com/mdraza/portfolio",
+    demoLink: "https://portfolio-cgmq.vercel.app/",
     image: "/projects/portfolio.png",
   },
   {
